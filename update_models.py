@@ -5,11 +5,15 @@ FILE_PATH = "models.txt"
 def get_models():
     """Fetch Hugging Face models and return a sorted list."""
     hf_api = HfApi()
+    # Get a list of models for text generation with the "transformers" library
     models_itr = hf_api.list_models(task="text-generation", library="transformers")
+
+    # Filter out private models
+    public_models = [model for model in models_itr if not model.private]
     
     # Filter models and sort alphabetically
     models = sorted([
-        x.modelId for x in models_itr if "base_model" not in " ".join(str(y) for y in x.tags)
+        x.modelId for x in public_models if "base_model" not in " ".join(str(y) for y in x.tags)
     ])
     
     return models
