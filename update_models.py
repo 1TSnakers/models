@@ -8,11 +8,11 @@ def get_models():
     models_itr = hf_api.list_models(task="text-generation", library="transformers")
     return [
         x.modelId for x in models_itr if "base_model" not in " ".join(str(y) for y in x.tags)
-    ].sort()
+    ]
 
 def update_file():
     """Update models.txt with the latest models."""
-    models = get_models()
+    models = get_models().sort()
     with open(FILE_PATH, "w") as f:
         f.write("\n".join(models))
     print(f"Updated {FILE_PATH} with {len(models)} models.")
