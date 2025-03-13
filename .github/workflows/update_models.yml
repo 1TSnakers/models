@@ -32,4 +32,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add models.txt
           git commit -m "Update Hugging Face models list" || echo "No changes to commit"
-          git push HEAD:outputs
+          git push https://github.com/${{ github.repository }}.git HEAD:outputs
