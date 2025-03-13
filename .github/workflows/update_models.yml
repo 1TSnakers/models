@@ -29,7 +29,7 @@ jobs:
       - name: Run script
         run: python update_models.py
 
-      - name: Move models.txt to temp location
+      - name: Move models.json to temp location
         run: mv models.json /tmp/models.json
 
       - name: Checkout outputs branch
@@ -39,7 +39,7 @@ jobs:
 
       - name: Move models.txt back and commit
         run: |
-          mv /tmp/models.txt models.txt
+          mv /tmp/models.json models.json
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add models.json
