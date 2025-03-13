@@ -1,28 +1,28 @@
+import json
 from huggingface_hub import HfApi
 
-FILE_PATH = "models.txt"
+FILE_PATH = "models.json"
 
 def get_models():
-    """Fetch Hugging Face models and return a sorted list."""
+    """Fetch Hugging Face models and return a JSON list."""
     hf_api = HfApi()
-    # Get a list of models for text generation with the "transformers" library
     models_itr = hf_api.list_models(task="text-generation", library="transformers")
 
-    # Filter out private models
-    public_models = [model for model in models_itr if not model.private]
-    
-    # Filter models and sort alphabetically
     models = [
-        x.modelId for x in public_models if "base_model" not in " ".join(str(y) for y in x.tags)
+        {
+            "model": x.modelId,
+            "is_base_model": "base_model" in " ".join(str(y) for y in x.tags)
+        }
+        for x in models_itr
     ]
-    
+
     return models
 
 def update_file():
-    """Update models.txt with the latest sorted models."""
+    """Update models.json with the latest models."""
     models = get_models()
     with open(FILE_PATH, "w") as f:
-        f.write("\n".join(models))
+        json.dump(models, f, indent=2)
     print(f"Updated {FILE_PATH} with {len(models)} models.")
 
 if __name__ == "__main__":
