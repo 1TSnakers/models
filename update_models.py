@@ -8,13 +8,14 @@ def get_models():
     hf_api = HfApi()
     models_itr = hf_api.list_models(task="text-generation", library="transformers")
 
-    models = [
-        {
+    models = []
+    for x in models_itr:
+        model_entry = {
             "model": x.modelId,
             "is_base_model": "base_model" in " ".join(str(y) for y in x.tags)
         }
-        for x in models_itr
-    ]
+        print(f"Processing model: {model_entry['model']}")
+        models.append(model_entry)
 
     return models
 
