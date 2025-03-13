@@ -30,6 +30,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git clone https://github.com/${{ github.repository }}.git
           git add models.txt
           git commit -m "Update Hugging Face models list" || echo "No changes to commit"
           git push https://github.com/${{ github.repository }}.git HEAD:outputs
