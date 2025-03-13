@@ -12,10 +12,10 @@ jobs:
   update-models:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v3
         with:
-          ref: outputs  # Checkout 'outputs' branch (or create it)
+          ref: main  # Run workflow in 'main' branch
           fetch-depth: 0  # Ensure full history for branch operations
 
       - name: Set up Python
@@ -29,7 +29,12 @@ jobs:
       - name: Run script
         run: python update_models.py
 
-      - name: Commit and push changes to 'outputs' branch
+      - name: Checkout outputs branch
+        run: |
+          git fetch origin outputs || git branch outputs origin/outputs || git checkout -b outputs
+          git checkout outputs
+
+      - name: Commit and push models.txt to outputs branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
