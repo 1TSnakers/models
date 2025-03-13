@@ -30,7 +30,7 @@ jobs:
         run: python update_models.py
 
       - name: Move models.txt to temp location
-        run: mv models.txt /tmp/models.txt
+        run: mv models.json /tmp/models.json
 
       - name: Checkout outputs branch
         run: |
@@ -42,6 +42,6 @@ jobs:
           mv /tmp/models.txt models.txt
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add models.txt
+          git add models.json
           git commit -m "Update Hugging Face models list" || echo "No changes to commit"
           git push origin outputs
