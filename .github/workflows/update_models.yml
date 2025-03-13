@@ -28,9 +28,9 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git switch --orphan outputs
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git switch --orphan outputs
           git add models.txt
           git commit -m "Update Hugging Face models list" || echo "No changes to commit"
           git push https://github.com/${{ github.repository }}.git HEAD:main
