@@ -12,9 +12,9 @@ def get_models():
     public_models = [model for model in models_itr if not model.private]
     
     # Filter models and sort alphabetically
-    models = sorted([
+    models = [
         x.modelId for x in public_models if "base_model" not in " ".join(str(y) for y in x.tags)
-    ])
+    ]
     
     return models
 
