@@ -14,9 +14,11 @@ def get_models():
             "model": x.modelId,
             "is_base_model": "base_model" in " ".join(str(y) for y in x.tags)
         }
-        print(f"Processing model: {model_entry['model']}")
         models.append(model_entry)
-
+        if len(models) % 100 == 0:
+            print(f"Current count: {len(models)}")
+    
+    print(f"Current count: {len(models)}")
     return models
 
 def update_file():
