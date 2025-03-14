@@ -13,7 +13,7 @@ def get_models():
     for x in models_itr:
         model_entry = {
             "model": x.modelId,
-            "is_base_model": !("base_model" in " ".join(str(y) for y in x.tags))
+            "is_base_model": not "base_model" in " ".join(str(y) for y in x.tags)
         }
         models.append(model_entry)
         if len(models) % 1000 == 0:
