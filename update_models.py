@@ -31,7 +31,7 @@ def update_file():
     
     # Add timestamp to JSON output
     data = {
-        "last_updated": parsed_utc,
+        "last_updated": str(parsed_utc),
         "models": models
     }
     
