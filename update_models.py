@@ -1,8 +1,11 @@
 import json
-import datetime
+from datetime import datetime, timezone
 from huggingface_hub import HfApi
 
 FILE_PATH = "models.json"
+utc_now = datetime.now(timezone.utc)
+utc_string = utc_now.isoformat()
+parsed_utc = datetime.fromisoformat(utc_string)
 
 def get_models():
     """Fetch Hugging Face models and return a JSON list."""
@@ -28,7 +31,7 @@ def update_file():
     
     # Add timestamp to JSON output
     data = {
-        "last_updated": datetime.datetime.utcnow().isoformat() + "Z",
+        "last_updated": parsed_utc,
         "models": models
     }
     
