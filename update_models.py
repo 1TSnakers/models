@@ -1,8 +1,12 @@
 import json
-from datetime import datetime, timezone
+import datetime
+import os
 from huggingface_hub import HfApi
 
-FILE_PATH = "models.json"
+# Path to save models.json in the 'outputs' folder
+OUTPUT_FOLDER = "outputs"
+FILE_PATH = os.path.join(OUTPUT_FOLDER, "models.json")
+
 utc_now = datetime.now(timezone.utc)
 utc_string = utc_now.isoformat()
 parsed_utc = datetime.fromisoformat(utc_string)
