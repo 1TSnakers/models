@@ -25,16 +25,32 @@ def get_models():
     print(f"Total models fetched: {len(models)}")
     return models
 
+def get_timestamps():
+    """Generate both JS and Python-style timestamps."""
+    now_utc = datetime.datetime.utcnow()
+
+    # JS-style: ISO 8601 with Z (still readable for humans)
+    js_last_updated = now_utc.isoformat(timespec="seconds") + "Z"
+
+    # Python-style: Clean, human-readable format
+    py_last_updated = now_utc.strftime("%Y-%m-%d %I:%M %p UTC")
+
+    return js_last_updated, py_last_updated
+
 def update_file():
-    """Update models.json with the latest models and timestamp."""
+    """Update models.json with the latest models and timestamps."""
     models = get_models()
 
     # Create the 'outputs' folder if it doesn't exist
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-    # Add timestamp to JSON output
+    # Get timestamps in both formats
+    js_last_updated, py_last_updated = get_timestamps()
+
+    # Add timestamps and models to JSON output
     data = {
-        "last_updated": datetime.datetime.utcnow().isoformat() + "Z",
+        "JS_last_updated": js_last_updated,
+        "PY_last_updated": py_last_updated,
         "models": models
     }
 
