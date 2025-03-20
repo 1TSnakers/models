@@ -7,10 +7,6 @@ from huggingface_hub import HfApi
 OUTPUT_FOLDER = "outputs"
 FILE_PATH = os.path.join(OUTPUT_FOLDER, "models.json")
 
-utc_now = datetime.now(timezone.utc)
-utc_string = utc_now.isoformat()
-parsed_utc = datetime.fromisoformat(utc_string)
-
 def get_models():
     """Fetch Hugging Face models and return a JSON list."""
     hf_api = HfApi()
@@ -20,7 +16,7 @@ def get_models():
     for x in models_itr:
         model_entry = {
             "model": x.modelId,
-            "is_base_model": not "base_model" in " ".join(str(y) for y in x.tags)
+            "is_base_model": "base_model" in " ".join(str(y) for y in x.tags)
         }
         models.append(model_entry)
         if len(models) % 1000 == 0:
@@ -32,16 +28,19 @@ def get_models():
 def update_file():
     """Update models.json with the latest models and timestamp."""
     models = get_models()
-    
+
+    # Create the 'outputs' folder if it doesn't exist
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
     # Add timestamp to JSON output
     data = {
-        "last_updated": str(parsed_utc),
+        "last_updated": datetime.datetime.utcnow().isoformat() + "Z",
         "models": models
     }
-    
+
     with open(FILE_PATH, "w") as f:
         json.dump(data, f, indent=2)
-    
+
     print(f"Updated {FILE_PATH} with {len(models)} models.")
 
 if __name__ == "__main__":
