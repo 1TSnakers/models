@@ -6,14 +6,16 @@ Because the time syntax could be a little bit confusing, here are some code samp
 
 JavaScript:
 ``` js
-const time = new Date("2025-03-13T14:23:45Z");
+var time = "2025-03-13T14:23:45Z"
+time = new Date(time);
 // Of course, you have to change the date input, this is an example.
 ```
 
 Python:
 ``` python
 from datetime import datetime
-time = datetime.strptime("2025-03-13 02:23 PM UTC", "%Y-%m-%d %I:%M %p UTC")
+time = "2025-03-13 02:23 PM UTC"
+time = datetime.strptime(time, "%Y-%m-%d %I:%M %p UTC")
 # Of course, you have to change the date input, this is an example.
 ```
 
