@@ -36,9 +36,3 @@ jobs:
           git add outputs/models.json
           git commit -m "Update Hugging Face models list" || echo "No changes to commit"
           git push origin main
-      - name: Retry if needed
-        uses: devops-infra/action-retry@v2
-        with:
-          max_attempts: 3
-          command: 'python update_models.py'
-          delay: 5
