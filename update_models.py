@@ -1,63 +1,60 @@
 import json
-import datetime
 import os
+from datetime import datetime
 from huggingface_hub import HfApi
 
-# Path to save models.json in the 'outputs' folder
-OUTPUT_FOLDER = "outputs"
-FILE_PATH = os.path.join(OUTPUT_FOLDER, "models.json")
+# Load previous models if exists
+OUTPUT_FILE = "outputs/models.json"
+prev_models = []
+if os.path.exists(OUTPUT_FILE):
+    with open(OUTPUT_FILE, "r") as f:
+        prev_models = json.load(f)
 
-def get_models():
-    """Fetch Hugging Face models and return a JSON list."""
-    hf_api = HfApi()
-    models_itr = hf_api.list_models(task="text-generation", library="transformers")
+# Fetch new models
+hf_api = HfApi()
+modelsITR = hf_api.list_models(
+    task="text-generation",
+    library="transformers",
+)
 
-    models = []
-    for x in models_itr:
-        model_entry = {
-            "model": x.modelId,
-            "is_base_model": "base_model" in " ".join(str(y) for y in x.tags)
-        }
-        models.append(model_entry)
-        if len(models) % 1000 == 0:
-            print(f"Current count: {len(models)}")
+models = []
+for x in modelsITR:
+    is_base_model = "base_model" in " ".join(str(y) for y in x.tags)
+    models.append({"model": x.modelId, "is_base_model": is_base_model})
+    print(f"Processing model: {x.modelId}")
 
-    print(f"Total models fetched: {len(models)}")
-    return models
+# Compare old and new lists
+prev_set = {json.dumps(m, sort_keys=True) for m in prev_models}
+new_set = {json.dumps(m, sort_keys=True) for m in models}
 
-def get_timestamps():
-    """Generate both JS and Python-style timestamps."""
-    now_utc = datetime.datetime.utcnow()
+added_models = [json.loads(m) for m in new_set - prev_set]
+removed_models = [json.loads(m) for m in prev_set - new_set]
 
-    # JS-style: ISO 8601 with Z (still readable for humans)
-    js_last_updated = now_utc.isoformat(timespec="seconds") + "Z"
+# Print changes to console
+if added_models:
+    print(f"✅ Added models: {len(added_models)}")
+    for model in added_models:
+        print(f"  + {model['model']}")
 
-    # Python-style: Clean, human-readable format
-    py_last_updated = now_utc.strftime("%Y-%m-%d %I:%M %p UTC")
+if removed_models:
+    print(f"❌ Removed models: {len(removed_models)}")
+    for model in removed_models:
+        print(f"  - {model['model']}")
 
-    return js_last_updated, py_last_updated
+if not added_models and not removed_models:
+    print("⚡ No changes detected.")
 
-def update_file():
-    """Update models.json with the latest models and timestamps."""
-    models = get_models()
+# Add JS and Python timestamps
+now = datetime.utcnow()
+models_info = {
+    "JS_last_updated": now.strftime("%Y-%m-%dT%H:%M:%S.%fZ"),  # ISO-8601 format
+    "PY_last_updated": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
+    "models": models,
+}
 
-    # Create the 'outputs' folder if it doesn't exist
-    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+# Write updated models to file
+os.makedirs("outputs", exist_ok=True)
+with open(OUTPUT_FILE, "w") as f:
+    json.dump(models_info, f, indent=2)
 
-    # Get timestamps in both formats
-    js_last_updated, py_last_updated = get_timestamps()
-
-    # Add timestamps and models to JSON output
-    data = {
-        "JS_last_updated": js_last_updated,
-        "PY_last_updated": py_last_updated,
-        "models": models
-    }
-
-    with open(FILE_PATH, "w") as f:
-        json.dump(data, f, indent=2)
-
-    print(f"Updated {FILE_PATH} with {len(models)} models.")
-
-if __name__ == "__main__":
-    update_file()
+print(f"📂 Updated models.json with {len(models)} models.")
