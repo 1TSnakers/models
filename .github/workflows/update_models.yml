@@ -2,18 +2,13 @@ name: Update Hugging Face Models
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every 10 minutes
+    - cron: "0 0 * * *"  # Runs at midnight (00:00 UTC) daily
   workflow_dispatch:  # Allows manual run
 
 jobs:
   update_models:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false  # Continue other attempts even if one fails
-      max-parallel: 1   # Only one job runs at a time
-      matrix:
-        attempt: [1, 2, 3]  # Retries up to 3 times if needed
-
+    continue-on-error: true  # Don't halt on first failure
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -21,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Use your preferred Python version
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
@@ -36,6 +31,65 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add outputs/models.json
           git diff --staged --quiet || git commit -m "Update Hugging Face models list"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  retry_attempt_2:
+    runs-on: ubuntu-latest
+    needs: update_models
+    if: ${{ failure() }}  # Run only if the previous job failed
+    continue-on-error: true
+    steps:
+      - name: Retry attempt 2
+        run: echo "Retrying after failure..."
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run update_models.py again
+        run: python update_models.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add outputs/models.json
+          git diff --staged --quiet || git commit -m "Update Hugging Face models list (retry 1)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  retry_attempt_3:
+    runs-on: ubuntu-latest
+    needs: retry_attempt_2
+    if: ${{ failure() }}  # Run only if attempt 2 failed
+    steps:
+      - name: Retry attempt 3
+        run: echo "Final retry after two failures..."
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run update_models.py one last time
+        run: python update_models.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add outputs/models.json
+          git diff --staged --quiet || git commit -m "Update Hugging Face models list (final retry)"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
