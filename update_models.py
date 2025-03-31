@@ -11,6 +11,7 @@ if os.path.exists(OUTPUT_FILE):
         prev_models = json.load(f)
 
 # Fetch new models
+# Fetch new models
 hf_api = HfApi()
 modelsITR = hf_api.list_models(
     task="text-generation",
@@ -21,7 +22,8 @@ models = []
 for x in modelsITR:
     is_base_model = "base_model" in " ".join(str(y) for y in x.tags)
     models.append({"model": x.modelId, "is_base_model": is_base_model})
-    print(f"Processing model: {x.modelId}")
+
+print(f"✅ Processed {len(models)} models.")
 
 # Compare old and new lists
 prev_set = {json.dumps(m, sort_keys=True) for m in prev_models}
