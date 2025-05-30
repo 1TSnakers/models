@@ -15,7 +15,7 @@ if os.path.exists(OUTPUT_FILE):
 hf_api = HfApi()
 modelsITR = hf_api.list_models(
     task="text-generation",
-    library="transformers",
+    library="GUFF",
 )
 
 models = []
