@@ -25,27 +25,6 @@ for x in modelsITR:
 
 print(f"✅ Processed {len(models)} models.")
 
-# Compare old and new lists
-prev_set = {json.dumps(m, sort_keys=True) for m in prev_models}
-new_set = {json.dumps(m, sort_keys=True) for m in models}
-
-added_models = [json.loads(m) for m in new_set - prev_set]
-removed_models = [json.loads(m) for m in prev_set - new_set]
-
-# Print changes to console
-if added_models:
-    print(f"✅ Added models: {len(added_models)}")
-    for model in added_models:
-        print(f"  + {model['model']}")
-
-if removed_models:
-    print(f"❌ Removed models: {len(removed_models)}")
-    for model in removed_models:
-        print(f"  - {model['model']}")
-
-if not added_models and not removed_models:
-    print("⚡ No changes detected.")
-
 # Add JS and Python timestamps
 now = datetime.utcnow()
 models_info = {
