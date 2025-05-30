@@ -1,6 +1,6 @@
 [![Update Hugging Face Models](https://github.com/1TSnakers/models/actions/workflows/update_models.yml/badge.svg)](https://github.com/1TSnakers/models/actions/workflows/update_models.yml)
 
-This is a thing for a side project, it's just a thing that filters hugging face models so that I don't need to run something that takes a long time.
+This is a thing for a side project, it's just a thing that filters HuggingFace models so that I don't need to run something that takes a long time.
 
 Because the time syntax could be a little bit confusing, here are some code samples of JavaScript and Python.
 
@@ -21,5 +21,5 @@ time = datetime.strptime(time, "%Y-%m-%d %I:%M %p UTC")
 
 If you want to know what it's filtering for some reason, here:
 - Text generation models
-- Compatibility with the Python Transformers library
+- Compatibility with the GGUF, or ollama
 - Base models (Not fine-tuned or quantized)
