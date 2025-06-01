@@ -1,9 +1,13 @@
 {
-  "JS_last_updated": "2025-05-31T01:43:10.977101Z",
-  "PY_last_updated": "2025-05-31 01:43:10 UTC",
+  "JS_last_updated": "2025-06-01T02:03:14.342687Z",
+  "PY_last_updated": "2025-06-01 02:03:14 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
@@ -51,15 +55,15 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/ReasonFlux-F1-14B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/all-hands_openhands-lm-32b-v0.1-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
@@ -10812,10 +10816,6 @@
     },
     {
       "model": "MaziyarPanahi/Ice0.101-20.03-RP-GRPO-1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/ReasonFlux-F1-14B-GGUF",
       "is_base_model": true
     },
     {
