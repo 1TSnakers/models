@@ -1,13 +1,13 @@
 {
-  "JS_last_updated": "2025-06-01T02:03:14.342687Z",
-  "PY_last_updated": "2025-06-01 02:03:14 UTC",
+  "JS_last_updated": "2025-06-02T01:51:02.876475Z",
+  "PY_last_updated": "2025-06-02 01:51:02 UTC",
   "models": [
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
-      "model": "grimjim/MagTie-v1-12B-GGUF",
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
@@ -19,15 +19,15 @@
       "is_base_model": true
     },
     {
+      "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "legraphista/shieldgemma-9b-IMat-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Dans-PersonalityEngine-V1.1.0-12b-GGUF",
       "is_base_model": true
     },
     {
@@ -60,14 +60,6 @@
     },
     {
       "model": "tensorblock/all-hands_openhands-lm-32b-v0.1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "Pinkstack/Fijik-3b-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -3208,10 +3200,6 @@
     },
     {
       "model": "legraphista/K2-ckpt_360-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -8743,6 +8731,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Dans-PersonalityEngine-V1.1.0-12b-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/MISCHIEVOUS-12B-Mix_0.4v-GGUF",
       "is_base_model": true
     },
@@ -11171,6 +11163,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
@@ -11676,6 +11672,10 @@
     },
     {
       "model": "Casual-Autopsy/The-True-Abomination-24B-imat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "Pinkstack/Fijik-3b-instruct-GGUF",
       "is_base_model": true
     }
   ]
