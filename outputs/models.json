@@ -1,13 +1,13 @@
 {
-  "JS_last_updated": "2025-06-05T01:46:43.643520Z",
-  "PY_last_updated": "2025-06-05 01:46:43 UTC",
+  "JS_last_updated": "2025-06-06T01:46:07.368174Z",
+  "PY_last_updated": "2025-06-06 01:46:07 UTC",
   "models": [
     {
       "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "model": "MaziyarPanahi/WizardLM-2-8x22B-GGUF",
       "is_base_model": true
     },
     {
@@ -19,7 +19,7 @@
       "is_base_model": true
     },
     {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
+      "model": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-3B-Instruct-abliterated-v1",
       "is_base_model": true
     },
     {
@@ -28,6 +28,14 @@
     },
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
       "is_base_model": true
     },
     {
@@ -2484,10 +2492,6 @@
     },
     {
       "model": "MaziyarPanahi/WizardLM-2-7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/WizardLM-2-8x22B-GGUF",
       "is_base_model": true
     },
     {
@@ -8367,10 +8371,6 @@
       "is_base_model": true
     },
     {
-      "model": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-3B-Instruct-abliterated-v1",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/openbuddy-deepseek-10b-v17.1-4k-GGUF",
       "is_base_model": true
     },
@@ -10495,6 +10495,10 @@
       "is_base_model": true
     },
     {
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/amoral-gemma3-4B-GGUF",
       "is_base_model": true
     },
@@ -10840,10 +10844,6 @@
     },
     {
       "model": "MaziyarPanahi/MT-Merge9-gemma-2-9B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
       "is_base_model": true
     },
     {
