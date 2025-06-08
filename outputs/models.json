@@ -1,13 +1,9 @@
 {
-  "JS_last_updated": "2025-06-07T01:45:28.396005Z",
-  "PY_last_updated": "2025-06-07 01:45:28 UTC",
+  "JS_last_updated": "2025-06-08T01:55:33.278028Z",
+  "PY_last_updated": "2025-06-08 01:55:33 UTC",
   "models": [
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
@@ -16,6 +12,14 @@
     },
     {
       "model": "MaziyarPanahi/WizardLM-2-8x22B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Mixtral-8x22B-Instruct-v0.1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "legraphista/openchat-3.6-8b-20240522-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -31,11 +35,19 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/ReasonFlux-F1-14B-GGUF",
+      "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
       "is_base_model": true
     },
     {
-      "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
+      "model": "grimjim/MagTie-v1-12B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "Casual-Autopsy/The-True-Abomination-24B-imat-GGUF",
       "is_base_model": true
     },
     {
@@ -2495,10 +2507,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mixtral-8x22B-Instruct-v0.1-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "impactframes/Mixtral-8x22B-Instruct-v0.1-GGUF",
       "is_base_model": true
     },
@@ -3060,10 +3068,6 @@
     },
     {
       "model": "KLMFOREVER/WizardLM-2-7B-GGUF-Q4-K_M",
-      "is_base_model": true
-    },
-    {
-      "model": "legraphista/openchat-3.6-8b-20240522-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -10811,6 +10815,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/ReasonFlux-F1-14B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/ReasonFlux-F1-7B-GGUF",
       "is_base_model": true
     },
@@ -11667,15 +11675,7 @@
       "is_base_model": true
     },
     {
-      "model": "Casual-Autopsy/The-True-Abomination-24B-imat-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "Pinkstack/Fijik-3b-instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
       "is_base_model": true
     }
   ]
