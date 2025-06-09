@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-06-08T01:55:33.278028Z",
-  "PY_last_updated": "2025-06-08 01:55:33 UTC",
+  "JS_last_updated": "2025-06-09T01:53:01.945476Z",
+  "PY_last_updated": "2025-06-09 01:53:01 UTC",
   "models": [
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
@@ -31,15 +31,15 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-3B-Instruct-abliterated-v1",
       "is_base_model": true
     },
     {
       "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
@@ -6703,10 +6703,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/LDCC-SOLAR-gugutypus-10.7B-GGUF",
       "is_base_model": true
     },
@@ -11432,6 +11428,10 @@
     },
     {
       "model": "tensorblock/lgaalves_mistral-7b_open_platypus-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "grimjim/MagTie-v1-12B-GGUF",
       "is_base_model": true
     },
     {
