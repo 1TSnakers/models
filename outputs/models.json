@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-06-09T01:53:01.945476Z",
-  "PY_last_updated": "2025-06-09 01:53:01 UTC",
+  "JS_last_updated": "2025-06-10T01:49:06.171425Z",
+  "PY_last_updated": "2025-06-10 01:49:06 UTC",
   "models": [
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
@@ -20,10 +20,6 @@
     },
     {
       "model": "legraphista/openchat-3.6-8b-20240522-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -3180,6 +3176,10 @@
     },
     {
       "model": "legraphista/K2-ckpt_360-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
       "is_base_model": true
     },
     {
