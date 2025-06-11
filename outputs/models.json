@@ -1,9 +1,13 @@
 {
-  "JS_last_updated": "2025-06-10T01:49:06.171425Z",
-  "PY_last_updated": "2025-06-10 01:49:06 UTC",
+  "JS_last_updated": "2025-06-11T01:48:29.086978Z",
+  "PY_last_updated": "2025-06-11 01:48:29 UTC",
   "models": [
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
       "is_base_model": true
     },
     {
@@ -23,10 +27,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/ruadapt_qwen2.5_3B_ext_u48_instruct_v4-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
       "is_base_model": true
     },
@@ -35,11 +35,15 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "model": "tensorblock/Voicelab_trurl-2-13b-GGUF",
       "is_base_model": true
     },
     {
@@ -4576,6 +4580,10 @@
     },
     {
       "model": "MaziyarPanahi/FastApply-1.5B-v1.0-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/ruadapt_qwen2.5_3B_ext_u48_instruct_v4-GGUF",
       "is_base_model": true
     },
     {
@@ -10459,10 +10467,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
       "is_base_model": true
     },
@@ -11628,10 +11632,6 @@
     },
     {
       "model": "tensorblock/Voicelab_trurl-2-7b-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Voicelab_trurl-2-13b-GGUF",
       "is_base_model": true
     },
     {
