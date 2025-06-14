@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-06-13T01:48:10.661520Z",
-  "PY_last_updated": "2025-06-13 01:48:10 UTC",
+  "JS_last_updated": "2025-06-14T01:44:37.102110Z",
+  "PY_last_updated": "2025-06-14 01:44:37 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
@@ -8,10 +8,6 @@
     },
     {
       "model": "MaziyarPanahi/ChatMusician-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/WizardLM-2-8x22B-GGUF",
       "is_base_model": true
     },
     {
@@ -23,11 +19,11 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
+      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
       "is_base_model": true
     },
     {
-      "model": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-3B-Instruct-abliterated-v1",
+      "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
       "is_base_model": true
     },
     {
@@ -2499,6 +2495,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/WizardLM-2-8x22B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "DZgas/GIGABATEMAN-7B-GGUF",
       "is_base_model": true
     },
@@ -3925,10 +3925,6 @@
     {
       "model": "foulds/h2o-danube3-500m-chat-llamafile",
       "is_base_model": false
-    },
-    {
-      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
-      "is_base_model": true
     },
     {
       "model": "legraphista/Athene-70B-IMat-GGUF",
@@ -8368,6 +8364,10 @@
     },
     {
       "model": "MaziyarPanahi/Llama-OpenReviewer-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-3B-Instruct-abliterated-v1",
       "is_base_model": true
     },
     {
