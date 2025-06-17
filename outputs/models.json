@@ -1,9 +1,17 @@
 {
-  "JS_last_updated": "2025-06-16T01:52:13.416695Z",
-  "PY_last_updated": "2025-06-16 01:52:13 UTC",
+  "JS_last_updated": "2025-06-17T01:48:53.551536Z",
+  "PY_last_updated": "2025-06-17 01:48:53 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/sqlcoder-7b-2-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
@@ -12,10 +20,6 @@
     },
     {
       "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
       "is_base_model": true
     },
     {
@@ -2571,10 +2575,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/guillaumetell-7b-GGUF",
       "is_base_model": true
     },
@@ -2952,10 +2952,6 @@
     },
     {
       "model": "MaziyarPanahi/NeuralsynthesisInex12-7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
@@ -6700,6 +6696,10 @@
     },
     {
       "model": "tensorblock/Velara-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/openbuddy-qwen2.5llamaify-14b-v23.1-200k-GGUF",
       "is_base_model": true
     },
     {
