@@ -1,9 +1,13 @@
 {
-  "JS_last_updated": "2025-06-17T01:48:53.551536Z",
-  "PY_last_updated": "2025-06-17 01:48:53 UTC",
+  "JS_last_updated": "2025-06-18T01:47:41.908726Z",
+  "PY_last_updated": "2025-06-18 01:47:41 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/sqlcoder-7b-2-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "scribis/Fantastica-7b-Instruct-0.2-Italian-GGUF",
       "is_base_model": true
     },
     {
@@ -27,19 +31,15 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
-      "model": "tensorblock/Voicelab_trurl-2-13b-GGUF",
+      "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "model": "gabriellarson/AceReason-Nemotron-1.1-7B-GGUF",
       "is_base_model": true
     },
     {
@@ -2484,10 +2484,6 @@
     },
     {
       "model": "MaziyarPanahi/zephyr-orpo-141b-A35b-v0.1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "scribis/Fantastica-7b-Instruct-0.2-Italian-GGUF",
       "is_base_model": true
     },
     {
@@ -10459,6 +10455,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
       "is_base_model": true
     },
@@ -11163,10 +11163,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
@@ -11631,6 +11627,10 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/Voicelab_trurl-2-13b-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/lgaalves_llama-2-7b-hf_open-platypus-GGUF",
       "is_base_model": true
     },
@@ -11676,6 +11676,14 @@
     },
     {
       "model": "Pinkstack/Fijik-3b-instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "bobchenyx/DeepSeek-V3-0324-MoE-Pruner-E160-GGUF",
       "is_base_model": true
     }
   ]
