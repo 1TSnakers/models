@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-06-21T01:46:02.757997Z",
-  "PY_last_updated": "2025-06-21 01:46:02 UTC",
+  "JS_last_updated": "2025-06-22T01:56:42.898472Z",
+  "PY_last_updated": "2025-06-22 01:56:42 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
@@ -8,10 +8,6 @@
     },
     {
       "model": "gabriellarson/AceReason-Nemotron-1.1-7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/sqlcoder-7b-2-GGUF",
       "is_base_model": true
     },
     {
@@ -43,7 +39,15 @@
       "is_base_model": true
     },
     {
-      "model": "jackboyla/Phi-3-mini-4k-instruct-graph-GGUF",
+      "model": "tensorblock/YuE-s1-7B-anneal-en-cot-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
       "is_base_model": true
     },
     {
@@ -1600,6 +1604,10 @@
     },
     {
       "model": "MaziyarPanahi/sqlcoder-7b-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/sqlcoder-7b-2-GGUF",
       "is_base_model": true
     },
     {
@@ -7751,6 +7759,10 @@
       "is_base_model": true
     },
     {
+      "model": "jackboyla/Phi-3-mini-4k-instruct-graph-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/llama3-instrucTrans-enko-8b-GGUF",
       "is_base_model": true
     },
@@ -9687,10 +9699,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/YuE-s1-7B-anneal-en-cot-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/YuE-s1-7B-anneal-en-icl-GGUF",
       "is_base_model": true
     },
@@ -10427,10 +10435,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Llama-3.1-8B-SuperNova-EtherealHermes-GGUF",
       "is_base_model": true
     },
@@ -10488,10 +10492,6 @@
     },
     {
       "model": "tensorblock/Llama-3.1-Nemotron-Nano-8B-v1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
       "is_base_model": true
     },
     {
