@@ -1,13 +1,13 @@
 {
-  "JS_last_updated": "2025-06-26T01:48:33.614928Z",
-  "PY_last_updated": "2025-06-26 01:48:33 UTC",
+  "JS_last_updated": "2025-06-27T01:49:37.923147Z",
+  "PY_last_updated": "2025-06-27 01:49:37 UTC",
   "models": [
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -28,10 +28,6 @@
     },
     {
       "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
       "is_base_model": true
     },
     {
@@ -63,7 +59,19 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -4220,6 +4228,10 @@
     },
     {
       "model": "legraphista/granite-20b-code-instruct-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
       "is_base_model": true
     },
     {
@@ -10455,14 +10467,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/gemma-3-12b-it-GGUF",
       "is_base_model": true
     },
@@ -10592,10 +10596,6 @@
     },
     {
       "model": "MaziyarPanahi/Qwen2.5-Coder-3B-YOYO-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -11712,6 +11712,18 @@
     },
     {
       "model": "tensorblock/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/allenai_OLMo-2-0425-1B-RLVR1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/unsloth_Qwen3-0.6B-Base-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Vinnnf_Thinkless-1.5B-RL-DeepScaleR-GGUF",
       "is_base_model": true
     }
   ]
