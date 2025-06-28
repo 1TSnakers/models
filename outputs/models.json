@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-06-27T01:49:37.923147Z",
-  "PY_last_updated": "2025-06-27 01:49:37 UTC",
+  "JS_last_updated": "2025-06-28T01:45:35.197188Z",
+  "PY_last_updated": "2025-06-28 01:45:35 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
@@ -12,10 +12,6 @@
     },
     {
       "model": "tensorblock/Alphatao_Affine-9459823-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-Aya-101-GGUF",
       "is_base_model": true
     },
     {
@@ -1812,6 +1808,10 @@
     },
     {
       "model": "MaziyarPanahi/StructLM-34B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-Aya-101-GGUF",
       "is_base_model": true
     },
     {
@@ -11724,6 +11724,14 @@
     },
     {
       "model": "tensorblock/Vinnnf_Thinkless-1.5B-RL-DeepScaleR-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "bobchenyx/DeepSeek-V3-0324-MoE-Pruner-E192-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/nvidia_AceMath-RL-Nemotron-7B-GGUF",
       "is_base_model": true
     }
   ]
