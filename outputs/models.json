@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-06-29T01:58:57.911880Z",
-  "PY_last_updated": "2025-06-29 01:58:57 UTC",
+  "JS_last_updated": "2025-06-30T01:54:23.494043Z",
+  "PY_last_updated": "2025-06-30 01:54:23 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
@@ -43,15 +43,7 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/PiVoT-10.7B-Mistral-v0.2-RP-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Mistral-Small-24B-Instruct-2501-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF",
       "is_base_model": true
     },
     {
@@ -68,6 +60,10 @@
     },
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -8211,6 +8207,10 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/PiVoT-10.7B-Mistral-v0.2-RP-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/FusionNet-GGUF",
       "is_base_model": true
     },
@@ -10435,6 +10435,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Llama-3.1-8B-SuperNova-EtherealHermes-GGUF",
       "is_base_model": true
     },
@@ -11692,10 +11696,6 @@
     },
     {
       "model": "gabriellarson/AceReason-Nemotron-1.1-7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
