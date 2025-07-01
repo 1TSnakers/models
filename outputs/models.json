@@ -1,9 +1,17 @@
 {
-  "JS_last_updated": "2025-06-30T01:54:23.494043Z",
-  "PY_last_updated": "2025-06-30 01:54:23 UTC",
+  "JS_last_updated": "2025-07-01T02:00:11.836856Z",
+  "PY_last_updated": "2025-07-01 02:00:11 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -15,11 +23,7 @@
       "is_base_model": true
     },
     {
-      "model": "legraphista/DeepSeek-V2-Lite-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -32,14 +36,6 @@
     },
     {
       "model": "MaziyarPanahi/mistral-sk-7b-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/gemma-ko-7b-instruct-v0.71-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Ninja-V3-nsfw-enhance-GGUF",
       "is_base_model": true
     },
     {
@@ -63,7 +59,7 @@
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "model": "tensorblock/JungZoona_T3Q-qwen2.5-14b-v1.0-e3-GGUF",
       "is_base_model": true
     },
     {
@@ -2539,10 +2535,6 @@
       "is_base_model": false
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "abhinand/Meta-Llama-3-8B-GGUF",
       "is_base_model": false
     },
@@ -3044,6 +3036,10 @@
     },
     {
       "model": "legraphista/DeepSeek-V2-Lite-Chat-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "legraphista/DeepSeek-V2-Lite-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -6679,6 +6675,10 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/gemma-ko-7b-instruct-v0.71-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "pomelk1n/RuadaptQwen2.5-32B-instruct-4-bit-AWQ-GGUF",
       "is_base_model": true
     },
@@ -7645,6 +7645,10 @@
     {
       "model": "MaziyarPanahi/Capt-Dark-Science-12B-GGUF",
       "is_base_model": false
+    },
+    {
+      "model": "MaziyarPanahi/Ninja-V3-nsfw-enhance-GGUF",
+      "is_base_model": true
     },
     {
       "model": "tensorblock/Xiangxin-2XL-Chat-1048k-Chinese-Llama3-70B-GGUF",
@@ -11044,10 +11048,6 @@
     },
     {
       "model": "tensorblock/aisingapore_Llama-SEA-LION-v3-70B-IT-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/JungZoona_T3Q-qwen2.5-14b-v1.0-e3-GGUF",
       "is_base_model": true
     },
     {
