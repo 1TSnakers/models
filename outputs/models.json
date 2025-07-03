@@ -1,25 +1,21 @@
 {
-  "JS_last_updated": "2025-07-02T01:49:07.207471Z",
-  "PY_last_updated": "2025-07-02 01:49:07 UTC",
+  "JS_last_updated": "2025-07-03T01:49:25.301762Z",
+  "PY_last_updated": "2025-07-03 01:49:25 UTC",
   "models": [
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Alphatao_Affine-9459823-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -36,6 +32,10 @@
     },
     {
       "model": "MaziyarPanahi/Mistral-Small-24B-Instruct-2501-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/s1.1-7B-GGUF",
       "is_base_model": true
     },
     {
@@ -10463,10 +10463,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/s1.1-7B-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/OlympicCoder-7B-GGUF",
       "is_base_model": true
     },
@@ -11700,6 +11696,10 @@
     },
     {
       "model": "bobchenyx/DeepSeek-V3-0324-E160-A6E-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Alphatao_Affine-9459823-GGUF",
       "is_base_model": true
     },
     {
