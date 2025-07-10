@@ -1,13 +1,13 @@
 {
-  "JS_last_updated": "2025-07-09T01:51:21.640936Z",
-  "PY_last_updated": "2025-07-09 01:51:21 UTC",
+  "JS_last_updated": "2025-07-10T01:51:29.714777Z",
+  "PY_last_updated": "2025-07-10 01:51:29 UTC",
   "models": [
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -15,11 +15,15 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Meta-Llama-3.1-405B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "legraphista/Mistral-NeMo-Minitron-8B-Base-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -39,11 +43,23 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/MistralNemoTiny-GGUF",
+      "is_base_model": false
+    },
+    {
+      "model": "tensorblock/starcoder2-3b-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/Qwen2.5-Coder-1.5B-GGUF",
       "is_base_model": true
     },
     {
       "model": "tensorblock/granite-8b-code-instruct-128k-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Llama-3.3-70B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -56,6 +72,10 @@
     },
     {
       "model": "tensorblock/Llama-3.1-Nemotron-Nano-8B-v1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/mistral-7b-uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -2531,6 +2551,10 @@
       "is_base_model": false
     },
     {
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "abhinand/Meta-Llama-3-8B-GGUF",
       "is_base_model": false
     },
@@ -3192,10 +3216,6 @@
     },
     {
       "model": "legraphista/K2-ckpt_360-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -4163,10 +4183,6 @@
       "is_base_model": true
     },
     {
-      "model": "legraphista/Mistral-NeMo-Minitron-8B-Base-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "jburmeister/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
     },
@@ -4747,10 +4763,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/MistralNemoTiny-GGUF",
-      "is_base_model": false
-    },
-    {
       "model": "MaziyarPanahi/Flammades-Mistral-7B-GGUF",
       "is_base_model": true
     },
@@ -5188,10 +5200,6 @@
     },
     {
       "model": "tensorblock/Qwen1.5-MoE-A2.7B-Chat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/starcoder2-3b-GGUF",
       "is_base_model": true
     },
     {
@@ -7659,10 +7667,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Llama-3.3-70B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/IceDrunkenCherryRP-7b-GGUF",
       "is_base_model": true
     },
@@ -9280,10 +9284,6 @@
     },
     {
       "model": "MaziyarPanahi/Josiefied-abliteratedV4-Qwen2.5-14B-Inst-BaseMerge-TIES-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/mistral-7b-uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -11732,6 +11732,10 @@
     },
     {
       "model": "tensorblock/summerstars_SolaraV2-coder-0511-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/openbmb_MiniCPM4-MCP-GGUF",
       "is_base_model": true
     }
   ]
