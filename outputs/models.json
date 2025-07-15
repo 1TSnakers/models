@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-07-14T01:57:53.496511Z",
-  "PY_last_updated": "2025-07-14 01:57:53 UTC",
+  "JS_last_updated": "2025-07-15T01:58:00.214333Z",
+  "PY_last_updated": "2025-07-15 01:58:00 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
@@ -15,10 +15,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/granite-8b-code-instruct-128k-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
@@ -28,10 +24,6 @@
     },
     {
       "model": "MaziyarPanahi/Mixtral-8x22B-v0.1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/WizardLM-2-7B-GGUF",
       "is_base_model": true
     },
     {
@@ -51,10 +43,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Qwen2.5-1.5B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/MistralNemoTiny-GGUF",
       "is_base_model": false
     },
@@ -71,11 +59,19 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/granite-8b-code-instruct-128k-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Llama-3.3-70B-Instruct-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Qwen3-4B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -2527,6 +2523,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/WizardLM-2-7B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/WizardLM-2-8x22B-GGUF",
       "is_base_model": true
     },
@@ -4308,6 +4308,10 @@
     },
     {
       "model": "MaziyarPanahi/Qwen2.5-0.5B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Qwen2.5-1.5B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -11767,15 +11771,15 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/kakaocorp_kanana-safeguard-prompt-2.1b-GGUF",
       "is_base_model": true
     },
     {
       "model": "tensorblock/2p8xx_Foundation-Sec-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/soob3123_GrayLine-Qwen3-14B-GGUF",
       "is_base_model": true
     }
   ]
