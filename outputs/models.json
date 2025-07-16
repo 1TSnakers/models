@@ -1,13 +1,9 @@
 {
-  "JS_last_updated": "2025-07-15T01:58:00.214333Z",
-  "PY_last_updated": "2025-07-15 01:58:00 UTC",
+  "JS_last_updated": "2025-07-16T01:55:12.844209Z",
+  "PY_last_updated": "2025-07-16 01:55:12 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
       "is_base_model": true
     },
     {
@@ -43,6 +39,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/MistralNemoTiny-GGUF",
       "is_base_model": false
     },
@@ -67,7 +67,15 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/Aspik101_Vicuzard-30B-Uncensored-instruct-PL-lora_unload-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Qwen3-4B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Qwen_Qwen3-14B-GGUF",
       "is_base_model": true
     },
     {
@@ -76,6 +84,10 @@
     },
     {
       "model": "tensorblock/mistral-7b-uncensored-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "Casual-Autopsy/The-True-Abomination-24B-imat-GGUF",
       "is_base_model": true
     },
     {
@@ -11023,10 +11035,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/Aspik101_Vicuzard-30B-Uncensored-instruct-PL-lora_unload-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/mims-harvard_TxAgent-T1-Llama-3.1-8B-GGUF",
       "is_base_model": true
     },
@@ -11208,10 +11216,6 @@
     },
     {
       "model": "tensorblock/Qwen_Qwen3-30B-A3B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Qwen_Qwen3-14B-GGUF",
       "is_base_model": true
     },
     {
@@ -11667,10 +11671,6 @@
       "is_base_model": true
     },
     {
-      "model": "Casual-Autopsy/The-True-Abomination-24B-imat-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "Pinkstack/Fijik-3b-instruct-GGUF",
       "is_base_model": true
     },
@@ -11780,6 +11780,30 @@
     },
     {
       "model": "tensorblock/soob3123_GrayLine-Qwen3-14B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/iamsahinemir_meta-llama-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/ReadyArt_The-Omega-Directive-Qwen3-14B-v1.1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/unsloth_Llama-3.1-Nemotron-Nano-4B-v1.1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/ArliAI_DS-R1-Qwen3-8B-ArliAI-RpR-v4-Small-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/openbmb_MiniCPM4-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/RoadQAQ_Qwen2.5-Math-1.5B-16k-think-GGUF",
       "is_base_model": true
     }
   ]
