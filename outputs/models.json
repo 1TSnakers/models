@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-07-18T01:57:17.431060Z",
-  "PY_last_updated": "2025-07-18 01:57:17 UTC",
+  "JS_last_updated": "2025-07-19T01:51:09.768055Z",
+  "PY_last_updated": "2025-07-19 01:51:09 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
@@ -15,11 +15,11 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
       "is_base_model": true
     },
     {
@@ -27,15 +27,19 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Llama-3.2-1B-Instruct-GGUF",
       "is_base_model": true
     },
     {
+      "model": "tensorblock/CodeLlama-7b-hf-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/llama-3-sqlcoder-8b-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Qwen1.5-MoE-A2.7B-GGUF",
       "is_base_model": true
     },
     {
@@ -52,6 +56,10 @@
     },
     {
       "model": "MaziyarPanahi/Mistral-Small-24B-Instruct-2501-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -2551,6 +2559,10 @@
       "is_base_model": false
     },
     {
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "abhinand/Meta-Llama-3-8B-GGUF",
       "is_base_model": false
     },
@@ -3963,10 +3975,6 @@
       "is_base_model": false
     },
     {
-      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "legraphista/Athene-70B-IMat-GGUF",
       "is_base_model": true
     },
@@ -4236,6 +4244,10 @@
     },
     {
       "model": "legraphista/granite-20b-code-instruct-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
       "is_base_model": true
     },
     {
@@ -5319,10 +5331,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/CodeLlama-7b-hf-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/PowerLM-3b-GGUF",
       "is_base_model": true
     },
@@ -5596,10 +5604,6 @@
     },
     {
       "model": "tensorblock/llama-160m-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Qwen1.5-MoE-A2.7B-GGUF",
       "is_base_model": true
     },
     {
@@ -10115,10 +10119,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Llama_3.1_8b_Dolermed_R1_V1.03-GGUF",
       "is_base_model": true
     },
@@ -11848,6 +11848,30 @@
     },
     {
       "model": "tensorblock/dnotitia_Smoothie-Qwen3-1.7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Multiverse4FM_Multiverse-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/ZhangShenao_Llama-3.2-1B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/WisdomShell_RewardAnything-8B-v1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/dnotitia_Smoothie-Qwen3-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/dmis-lab_llama-3.1-medprm-reward-v1.0-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/PocketDoc_Dans-PersonalityEngine-V1.3.0-12b-GGUF",
       "is_base_model": true
     }
   ]
