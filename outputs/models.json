@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-07-22T01:56:02.596008Z",
-  "PY_last_updated": "2025-07-22 01:56:02 UTC",
+  "JS_last_updated": "2025-07-23T01:57:07.975748Z",
+  "PY_last_updated": "2025-07-23 01:57:07 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
@@ -16,6 +16,10 @@
     },
     {
       "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
       "is_base_model": true
     },
     {
@@ -51,6 +55,10 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/Teuken-7B-instruct-commercial-v0.4-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Lumimaid-Magnum-v4-12B-GGUF",
       "is_base_model": true
     },
@@ -83,7 +91,7 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
+      "model": "tensorblock/kyutai_helium-1-2b-GGUF",
       "is_base_model": true
     },
     {
@@ -7579,10 +7587,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/Teuken-7B-instruct-commercial-v0.4-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/SmolLM2-360M-Instruct-FT-GGUF",
       "is_base_model": true
     },
@@ -11743,10 +11747,6 @@
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/openbmb_MiniCPM4-MCP-GGUF",
       "is_base_model": true
     },
@@ -11776,6 +11776,10 @@
     },
     {
       "model": "tensorblock/shuttleai_shuttle-3.5-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -11820,10 +11824,6 @@
     },
     {
       "model": "tensorblock/shallow6414_sn11-3-5-1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/kyutai_helium-1-2b-GGUF",
       "is_base_model": true
     },
     {
@@ -11928,6 +11928,22 @@
     },
     {
       "model": "tensorblock/ServiceNow-AI_Apriel-Nemotron-15b-Thinker-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/viveriveniversumvivusvici_jiaforge-model-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/oscar128372_Qwen2.5-CoderX-7B-v0.5-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/shariar076_Llama-3.1-8B-Instruct-DPO-0R100L-PoliTune-GGUF",
       "is_base_model": true
     }
   ]
