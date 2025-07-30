@@ -1,17 +1,17 @@
 {
-  "JS_last_updated": "2025-07-29T02:08:14.862992Z",
-  "PY_last_updated": "2025-07-29 02:08:14 UTC",
+  "JS_last_updated": "2025-07-30T01:58:47.228811Z",
+  "PY_last_updated": "2025-07-30 01:58:47 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+      "model": "MaziyarPanahi/Llama-3.2-1B-Instruct-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
+      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
       "is_base_model": true
     },
     {
@@ -19,7 +19,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Qwen3-4B-GGUF",
+      "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
     {
@@ -31,15 +31,19 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "legraphista/Nxcode-CQ-7B-orpo-IMat-GGUF",
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "legraphista/Palmyra-Fin-70B-32K-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -48,6 +52,10 @@
     },
     {
       "model": "tensorblock/gpt4all-falcon-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Qwen2.5-32B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -63,15 +71,11 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/phi-4-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/gemma-3-1b-it-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
       "is_base_model": true
     },
     {
@@ -83,15 +87,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Qwen3-8B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "model": "MaziyarPanahi/Qwen3-4B-GGUF",
       "is_base_model": true
     },
     {
@@ -108,6 +104,14 @@
     },
     {
       "model": "bobchenyx/DeepSeek-R1-0528-MLA-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/ReadyArt_Broken-Tutu-24B-Unslop-v2.0-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/ReadyArt_The-Omega-Directive-Qwen3-14B-v1.1-GGUF",
       "is_base_model": true
     },
     {
@@ -3027,6 +3031,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "LiteLLMs/Phi-3-mini-128k-instruct-GGUF",
       "is_base_model": false
     },
@@ -3995,10 +4003,6 @@
       "is_base_model": false
     },
     {
-      "model": "MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "legraphista/Athene-70B-IMat-GGUF",
       "is_base_model": true
     },
@@ -4432,10 +4436,6 @@
     },
     {
       "model": "Quant-Cartel/SorcererLM-22B-iMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Llama-3.2-1B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -5756,10 +5756,6 @@
     },
     {
       "model": "tensorblock/openchat-3.5-1210-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Qwen2.5-32B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -9591,6 +9587,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/phi-4-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/openbuddy-deepseek-67b-v15.2-GGUF",
       "is_base_model": true
     },
@@ -10147,6 +10147,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Llama_3.1_8b_Dolermed_R1_V1.03-GGUF",
       "is_base_model": true
     },
@@ -10512,10 +10516,6 @@
     },
     {
       "model": "tensorblock/Llama-3.1-Nemotron-Nano-8B-v1-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
       "is_base_model": true
     },
     {
@@ -11187,6 +11187,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Qwen3-8B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "grimjim/Magnolia-v3b-12B-GGUF",
       "is_base_model": true
     },
@@ -11695,6 +11699,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "bobchenyx/DeepSeek-V3-0324-MoE-Pruner-E160-GGUF",
       "is_base_model": true
     },
@@ -11767,10 +11775,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/ReadyArt_Broken-Tutu-24B-Unslop-v2.0-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/nvidia_AceReason-Nemotron-7B-GGUF",
       "is_base_model": true
     },
@@ -11800,10 +11804,6 @@
     },
     {
       "model": "tensorblock/iamsahinemir_meta-llama-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/ReadyArt_The-Omega-Directive-Qwen3-14B-v1.1-GGUF",
       "is_base_model": true
     },
     {
@@ -12056,6 +12056,34 @@
     },
     {
       "model": "tensorblock/microsoft_Phi-4-mini-reasoning-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/scb10x_typhoon2.1-gemma3-12b-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/dnotitia_Smoothie-Qwen3-0.6B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Hastagaras_Qibil-4B-v0.1-RP-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/unsloth_Jan-nano-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Gryphe_Pantheon-Proto-RP-1.8-30B-A3B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Tongyi-Zhiwen_QwenLong-L1-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/mlx-community_Qwen3-1.7B-bf16-GGUF",
       "is_base_model": true
     }
   ]
