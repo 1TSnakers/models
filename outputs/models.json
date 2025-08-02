@@ -1,15 +1,7 @@
 {
-  "JS_last_updated": "2025-08-01T02:08:36.264063Z",
-  "PY_last_updated": "2025-08-01 02:08:36 UTC",
+  "JS_last_updated": "2025-08-02T01:52:53.951887Z",
+  "PY_last_updated": "2025-08-02 01:52:53 UTC",
   "models": [
-    {
-      "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
-      "is_base_model": true
-    },
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
       "is_base_model": true
@@ -27,7 +19,19 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/ChatMusician-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -88,10 +92,6 @@
     },
     {
       "model": "MaziyarPanahi/Qwen3-4B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "bobchenyx/DeepSeek-V3-0324-MLA-GGUF",
       "is_base_model": true
     },
     {
@@ -2581,10 +2581,6 @@
     {
       "model": "MaziyarPanahi/Meta-Llama-3-70B-Instruct-GGUF",
       "is_base_model": false
-    },
-    {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
     },
     {
       "model": "abhinand/Meta-Llama-3-8B-GGUF",
@@ -11931,6 +11927,10 @@
       "is_base_model": true
     },
     {
+      "model": "bobchenyx/DeepSeek-V3-0324-MLA-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/ServiceNow-AI_Apriel-Nemotron-15b-Thinker-GGUF",
       "is_base_model": true
     },
@@ -12112,6 +12112,14 @@
     },
     {
       "model": "tensorblock/lxcorp_lambda-1v-1B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Alphatao_Affine-2333827-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/ypwang61_One-Shot-RLVR-Qwen2.5-Math-1.5B-pi1-GGUF",
       "is_base_model": true
     }
   ]
