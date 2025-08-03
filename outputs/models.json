@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-08-02T01:52:53.951887Z",
-  "PY_last_updated": "2025-08-02 01:52:53 UTC",
+  "JS_last_updated": "2025-08-03T02:06:42.806046Z",
+  "PY_last_updated": "2025-08-03 02:06:42 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
@@ -39,7 +39,11 @@
       "is_base_model": true
     },
     {
-      "model": "legraphista/Palmyra-Fin-70B-32K-IMat-GGUF",
+      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/solar-pro-preview-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -4023,10 +4027,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF",
       "is_base_model": true
     },
@@ -4081,6 +4081,10 @@
     {
       "model": "MaziyarPanahi/calme-2.2-qwen2-72b-GGUF",
       "is_base_model": false
+    },
+    {
+      "model": "legraphista/Palmyra-Fin-70B-32K-IMat-GGUF",
+      "is_base_model": true
     },
     {
       "model": "GPT4All-Community/gemma-2-9b-it-GGUF",
@@ -4344,10 +4348,6 @@
     },
     {
       "model": "legraphista/datagemma-rig-27b-it-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/solar-pro-preview-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -12115,11 +12115,35 @@
       "is_base_model": true
     },
     {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/Alphatao_Affine-2333827-GGUF",
       "is_base_model": true
     },
     {
       "model": "tensorblock/ypwang61_One-Shot-RLVR-Qwen2.5-Math-1.5B-pi1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/RedHatAI_Llama-3.1-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/open-thoughts_OpenThinker3-7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Alphatao_Affine-9711767-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/kakaocorp_kanana-1.5-8b-instruct-2505-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/allenai_OLMo-2-0425-1B-Instruct-GGUF",
       "is_base_model": true
     }
   ]
