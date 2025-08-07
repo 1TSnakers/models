@@ -1,7 +1,11 @@
 {
-  "JS_last_updated": "2025-08-06T01:59:27.529576Z",
-  "PY_last_updated": "2025-08-06 01:59:27 UTC",
+  "JS_last_updated": "2025-08-07T02:00:02.903427Z",
+  "PY_last_updated": "2025-08-07 02:00:02 UTC",
   "models": [
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
+      "is_base_model": true
+    },
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q4_K_M-GGUF",
       "is_base_model": true
@@ -15,7 +19,7 @@
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
+      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -23,15 +27,15 @@
       "is_base_model": true
     },
     {
-      "model": "yukiarimo/yuna-ai-v4",
+      "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -67,7 +71,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
+      "model": "yukiarimo/yuna-ai-v4",
       "is_base_model": true
     },
     {
@@ -75,11 +79,11 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
+      "model": "tensorblock/text-2-sql-Llama-3.2-3B-GGUF",
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
       "is_base_model": true
     },
     {
@@ -10699,10 +10703,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/text-2-sql-Llama-3.2-3B-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Qwen2.5-14B-YOYO-V5-GGUF",
       "is_base_model": true
     },
@@ -11175,7 +11175,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
+      "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
     {
@@ -12168,6 +12168,18 @@
     },
     {
       "model": "tensorblock/Skywork_Skywork-SWE-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "Zero21/OncoScope",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Menlo_Jan-nano-128k-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/fdtn-ai_Foundation-Sec-8B-Instruct-GGUF",
       "is_base_model": true
     }
   ]
