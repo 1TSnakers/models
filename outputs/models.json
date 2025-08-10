@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-08-09T01:48:48.526347Z",
-  "PY_last_updated": "2025-08-09 01:48:48 UTC",
+  "JS_last_updated": "2025-08-10T02:03:09.084254Z",
+  "PY_last_updated": "2025-08-10 02:03:09 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
@@ -19,10 +19,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
@@ -31,7 +27,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -68,6 +64,10 @@
     },
     {
       "model": "tensorblock/text-2-sql-Llama-3.2-3B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/scb10x_llama3.1-typhoon2-8b-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -2565,6 +2565,10 @@
     {
       "model": "MaziyarPanahi/Meta-Llama-3-70B-Instruct-GGUF",
       "is_base_model": false
+    },
+    {
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "is_base_model": true
     },
     {
       "model": "abhinand/Meta-Llama-3-8B-GGUF",
@@ -11079,10 +11083,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/scb10x_llama3.1-typhoon2-8b-instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/Lukamac_PlayPart-AI-Personal-Trainer-GGUF",
       "is_base_model": true
     },
@@ -12220,6 +12220,22 @@
     },
     {
       "model": "tensorblock/TachyHealth_Gazal-R1-32B-sft-merged-preview-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/futurehouse_ether0-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/haebo_meow-clovax-v3-GGUF",
       "is_base_model": true
     }
   ]
