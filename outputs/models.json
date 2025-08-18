@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-08-17T01:56:13.692721Z",
-  "PY_last_updated": "2025-08-17 01:56:13 UTC",
+  "JS_last_updated": "2025-08-18T01:56:49.579710Z",
+  "PY_last_updated": "2025-08-18 01:56:49 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
@@ -8,6 +8,10 @@
     },
     {
       "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -27,6 +31,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF",
       "is_base_model": true
     },
@@ -36,10 +44,6 @@
     },
     {
       "model": "tensorblock/law-chat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -4148,10 +4152,6 @@
     },
     {
       "model": "legraphista/Phi-3.5-mini-instruct-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -12340,6 +12340,30 @@
     },
     {
       "model": "tensorblock/Goekdeniz-Guelmez_Josiefied-Qwen3-30B-A3B-abliterated-v2-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/PhysicsWallahAI_Aryabhata-1.0-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/soob3123_GrayLine-Qwen3-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/albertfares_DPO_MCQA_model-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/huihui-ai_Huihui-Qwen3-1.7B-abliterated-v2-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/nvidia_OpenCodeReasoning-Nemotron-1.1-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/nvidia_AceReason-Nemotron-1.1-7B-GGUF",
       "is_base_model": true
     }
   ]
