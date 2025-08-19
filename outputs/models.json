@@ -1,21 +1,13 @@
 {
-  "JS_last_updated": "2025-08-18T01:56:49.579710Z",
-  "PY_last_updated": "2025-08-18 01:56:49 UTC",
+  "JS_last_updated": "2025-08-19T01:44:25.620887Z",
+  "PY_last_updated": "2025-08-19 01:44:25 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/gemma-7b-GGUF",
       "is_base_model": true
     },
     {
@@ -24,10 +16,6 @@
     },
     {
       "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "GPT4All-Community/Qwen2-7B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -48,6 +36,10 @@
     },
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -1712,6 +1704,10 @@
     },
     {
       "model": "MaziyarPanahi/Ultra-Smaug-125B-v0.1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/gemma-7b-GGUF",
       "is_base_model": true
     },
     {
@@ -4105,6 +4101,10 @@
     {
       "model": "GPT4All-Community/Replete-LLM-Qwen2-7b-GGUF",
       "is_base_model": false
+    },
+    {
+      "model": "GPT4All-Community/Qwen2-7B-Instruct-GGUF",
+      "is_base_model": true
     },
     {
       "model": "GPT4All-Community/Chocolatine-3B-Instruct-DPO-Revised-GGUF",
@@ -12364,6 +12364,26 @@
     },
     {
       "model": "tensorblock/nvidia_AceReason-Nemotron-1.1-7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/LLM360_guru-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Jarvis1111_DoctorAgent-RL-SFT-1k-Thinking-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Alphatao_Affine-5956831-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/inclusionAI_AReaL-boba-2-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Qwen_Qwen3-30B-A3B-Thinking-2507-GGUF",
       "is_base_model": true
     }
   ]
