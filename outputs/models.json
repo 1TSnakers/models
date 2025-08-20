@@ -1,13 +1,9 @@
 {
-  "JS_last_updated": "2025-08-19T01:44:25.620887Z",
-  "PY_last_updated": "2025-08-19 01:44:25 UTC",
+  "JS_last_updated": "2025-08-20T01:42:58.842187Z",
+  "PY_last_updated": "2025-08-20 01:42:58 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -35,11 +31,11 @@
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-GGUF",
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
+      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -10479,10 +10475,6 @@
       "is_base_model": true
     },
     {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/amoral-gemma3-4B-GGUF",
       "is_base_model": true
     },
@@ -12127,6 +12119,10 @@
       "is_base_model": true
     },
     {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/Alphatao_Affine-2333827-GGUF",
       "is_base_model": true
     },
@@ -12236,6 +12232,10 @@
     },
     {
       "model": "tensorblock/futurehouse_ether0-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -12384,6 +12384,34 @@
     },
     {
       "model": "tensorblock/Qwen_Qwen3-30B-A3B-Thinking-2507-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/nvidia_OpenReasoning-Nemotron-7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/neural-coder_xlam-finetuned-1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/nvidia_OpenReasoning-Nemotron-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/mookiezi_Discord-Micae-Hermes-3-3B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Menlo_Lucy-128k-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/yujiepan_llama-3.3-tiny-random-dim64-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/unsloth_Qwen3-30B-A3B-Instruct-2507-GGUF",
       "is_base_model": true
     }
   ]
