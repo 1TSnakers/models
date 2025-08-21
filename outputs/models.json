@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-08-20T01:42:58.842187Z",
-  "PY_last_updated": "2025-08-20 01:42:58 UTC",
+  "JS_last_updated": "2025-08-21T01:42:04.654611Z",
+  "PY_last_updated": "2025-08-21 01:42:04 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
@@ -11,15 +11,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -36,6 +28,10 @@
     },
     {
       "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/arshiaafshani_arshGpt-GGUF",
       "is_base_model": true
     },
     {
@@ -3963,6 +3959,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF",
       "is_base_model": true
     },
@@ -5424,6 +5424,10 @@
     },
     {
       "model": "tensorblock/bloomz-1b1-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -12047,10 +12051,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/arshiaafshani_arshGpt-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/allenai_OLMo-2-0425-1B-DPO-GGUF",
       "is_base_model": true
     },
@@ -12412,6 +12412,22 @@
     },
     {
       "model": "tensorblock/unsloth_Qwen3-30B-A3B-Instruct-2507-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Menlo_Lucy-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Delta-Vector_GLM-4-32B-Tulu-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/nvidia_OpenReasoning-Nemotron-14B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Qwen_Qwen3-1.7B-MLX-bf16-GGUF",
       "is_base_model": true
     }
   ]
