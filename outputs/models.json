@@ -1,9 +1,13 @@
 {
-  "JS_last_updated": "2025-08-21T01:42:04.654611Z",
-  "PY_last_updated": "2025-08-21 01:42:04 UTC",
+  "JS_last_updated": "2025-08-22T01:42:22.616468Z",
+  "PY_last_updated": "2025-08-22 01:42:22 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -11,7 +15,7 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
       "is_base_model": true
     },
     {
@@ -4204,10 +4208,6 @@
     },
     {
       "model": "legraphista/granite-20b-code-instruct-IMat-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
       "is_base_model": true
     },
     {
