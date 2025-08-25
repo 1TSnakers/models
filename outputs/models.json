@@ -1,13 +1,13 @@
 {
-  "JS_last_updated": "2025-08-24T01:52:12.655028Z",
-  "PY_last_updated": "2025-08-24 01:52:12 UTC",
+  "JS_last_updated": "2025-08-25T01:46:50.613172Z",
+  "PY_last_updated": "2025-08-25 01:46:50 UTC",
   "models": [
     {
-      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+      "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
+      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -20,6 +20,10 @@
     },
     {
       "model": "MaziyarPanahi/Yi-Coder-1.5B-Chat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/math_gpt2_sft-GGUF",
       "is_base_model": true
     },
     {
@@ -36,10 +40,6 @@
     },
     {
       "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -8647,10 +8647,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/math_gpt2_sft-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/nano-phi-115M-v0.1-GGUF",
       "is_base_model": true
     },
@@ -10596,6 +10592,10 @@
     },
     {
       "model": "MaziyarPanahi/Qwen2.5-Coder-3B-YOYO-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/Phi-4-mini-instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
