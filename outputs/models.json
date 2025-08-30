@@ -1,13 +1,9 @@
 {
-  "JS_last_updated": "2025-08-29T01:39:41.713391Z",
-  "PY_last_updated": "2025-08-29 01:39:41 UTC",
+  "JS_last_updated": "2025-08-30T01:27:11.263964Z",
+  "PY_last_updated": "2025-08-30 01:27:11 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -28,6 +24,10 @@
     },
     {
       "model": "legraphista/Palmyra-Fin-70B-32K-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -59,11 +59,19 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/gemma-3-27b-it-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Qwen3-4B-GGUF",
       "is_base_model": true
     },
     {
@@ -10475,10 +10483,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/gemma-3-4b-it-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/gemma-3-12b-it-GGUF",
       "is_base_model": true
     },
@@ -11180,10 +11184,6 @@
     },
     {
       "model": "MaziyarPanahi/Qwen3-0.6B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Qwen3-4B-GGUF",
       "is_base_model": true
     },
     {
