@@ -1,17 +1,9 @@
 {
-  "JS_last_updated": "2025-08-30T01:27:11.263964Z",
-  "PY_last_updated": "2025-08-30 01:27:11 UTC",
+  "JS_last_updated": "2025-08-31T01:44:26.354249Z",
+  "PY_last_updated": "2025-08-31 01:44:26 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Qwen3-8B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Yi-9B-GGUF",
       "is_base_model": true
     },
     {
@@ -47,14 +39,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Ministral-8B-Instruct-2410-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/phi-4-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
       "is_base_model": true
     },
@@ -68,6 +52,10 @@
     },
     {
       "model": "MaziyarPanahi/Qwen3-1.7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Qwen3-8B-GGUF",
       "is_base_model": true
     },
     {
@@ -91,11 +79,15 @@
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
+      "model": "tensorblock/unsloth_Jan-nano-GGUF",
       "is_base_model": true
     },
     {
-      "model": "tensorblock/mookiezi_Discord-Micae-Hermes-3-3B-GGUF",
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -1888,6 +1880,10 @@
     },
     {
       "model": "MaziyarPanahi/merlinite-7b-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Yi-9B-GGUF",
       "is_base_model": true
     },
     {
@@ -4216,10 +4212,6 @@
     },
     {
       "model": "jburmeister/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "GPT4All-Community/Phi-3.5-mini-instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -9219,6 +9211,10 @@
       "is_base_model": true
     },
     {
+      "model": "MaziyarPanahi/Ministral-8B-Instruct-2410-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tensorblock/Qwen2.5-Coder-3B-Instruct-GGUF",
       "is_base_model": true
     },
@@ -9576,6 +9572,10 @@
     },
     {
       "model": "tensorblock/Custom-KoLLM-13B-v2-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/phi-4-GGUF",
       "is_base_model": true
     },
     {
@@ -12083,10 +12083,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/unsloth_Jan-nano-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/Gryphe_Pantheon-Proto-RP-1.8-30B-A3B-GGUF",
       "is_base_model": true
     },
@@ -12176,10 +12172,6 @@
     },
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q4_K_M-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
       "is_base_model": true
     },
     {
@@ -12400,6 +12392,10 @@
     },
     {
       "model": "tensorblock/nvidia_OpenReasoning-Nemotron-32B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/mookiezi_Discord-Micae-Hermes-3-3B-GGUF",
       "is_base_model": true
     },
     {
