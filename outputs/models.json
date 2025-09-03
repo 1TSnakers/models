@@ -1,7 +1,11 @@
 {
-  "JS_last_updated": "2025-09-02T01:41:16.752457Z",
-  "PY_last_updated": "2025-09-02 01:41:16 UTC",
+  "JS_last_updated": "2025-09-03T01:27:01.810823Z",
+  "PY_last_updated": "2025-09-03 01:27:01 UTC",
   "models": [
+    {
+      "model": "yukiarimo/yuna-ai-v4",
+      "is_base_model": true
+    },
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
       "is_base_model": true
@@ -31,10 +35,6 @@
       "is_base_model": true
     },
     {
-      "model": "yukiarimo/yuna-ai-v4",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Phi-4-mini-instruct-GGUF",
       "is_base_model": true
     },
@@ -44,6 +44,10 @@
     },
     {
       "model": "MaziyarPanahi/gemma-3-27b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/DeepSeek-V3-0324-GGUF",
       "is_base_model": true
     },
     {
@@ -60,6 +64,10 @@
     },
     {
       "model": "MaziyarPanahi/INTELLECT-2-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -4912,7 +4920,7 @@
     },
     {
       "model": "MaziyarPanahi/Llama-3-8B-Stroganoff-4.0-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/Llama-Guard-3-1B-GGUF",
@@ -4924,7 +4932,7 @@
     },
     {
       "model": "MaziyarPanahi/Llama-3-8B-Stroganoff-3.0-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/Defne-llama3.1-8B-GGUF",
@@ -4940,7 +4948,7 @@
     },
     {
       "model": "MaziyarPanahi/Llama-3-8B-Stroganoff-2.0-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/Llama-3.1-AlternateTokenizer-GGUF",
@@ -7680,7 +7688,7 @@
     },
     {
       "model": "MaziyarPanahi/Dark-Science-12B-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/SAINEMO-reMIX-GGUF",
@@ -9472,7 +9480,7 @@
     },
     {
       "model": "MaziyarPanahi/Qwenvergence-14B-v3-Prose-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/FuseCyberMix-Qwen-2.5-7B-Instruct-GGUF",
@@ -9888,7 +9896,7 @@
     },
     {
       "model": "MaziyarPanahi/Kyro-n1-3B-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/MrRoboto-BASE-Unholy-8b-64k-GGUF",
@@ -9920,7 +9928,7 @@
     },
     {
       "model": "MaziyarPanahi/Kyro-n1-7B-GGUF",
-      "is_base_model": true
+      "is_base_model": false
     },
     {
       "model": "MaziyarPanahi/yuna-ai-v4-full-GGUF",
@@ -10863,10 +10871,6 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/DeepSeek-V3-0324-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "exxocism/featherless-ai_Qwerky-72B-GGUF",
       "is_base_model": true
     },
@@ -11784,10 +11788,6 @@
     },
     {
       "model": "tensorblock/shuttleai_shuttle-3.5-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
       "is_base_model": true
     },
     {
