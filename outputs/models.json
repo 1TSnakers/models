@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-09-08T01:42:12.330260Z",
-  "PY_last_updated": "2025-09-08 01:42:12 UTC",
+  "JS_last_updated": "2025-09-09T01:38:55.005634Z",
+  "PY_last_updated": "2025-09-09 01:38:55 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
@@ -12,6 +12,18 @@
     },
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/tarun7r_Finance-Llama-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Qwen2.5-7B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -31,6 +43,10 @@
       "is_base_model": true
     },
     {
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
       "is_base_model": true
     },
@@ -39,23 +55,11 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/DavidAU_Qwen3-8B-64k-Context-2X-Josiefied-Uncensored-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
       "is_base_model": true
     },
     {
-      "model": "tensorblock/MBZUAI-Paris_Nile-Chat-4B-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/TachyHealth_Gazal-R1-32B-sft-merged-preview-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/tarun7r_Finance-Llama-8B-GGUF",
       "is_base_model": true
     },
     {
@@ -4320,10 +4324,6 @@
     },
     {
       "model": "MaziyarPanahi/Qwen2.5-3B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Qwen2.5-7B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -10491,10 +10491,6 @@
       "is_base_model": true
     },
     {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/amoral-gemma3-4B-GGUF",
       "is_base_model": true
     },
@@ -12196,6 +12192,10 @@
     },
     {
       "model": "tensorblock/Alphatao_Affine-1855255-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/MBZUAI-Paris_Nile-Chat-4B-GGUF",
       "is_base_model": true
     },
     {
