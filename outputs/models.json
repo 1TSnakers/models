@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-09-15T01:43:11.711076Z",
-  "PY_last_updated": "2025-09-15 01:43:11 UTC",
+  "JS_last_updated": "2025-09-16T01:27:36.494243Z",
+  "PY_last_updated": "2025-09-16 01:27:36 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
@@ -8,14 +8,6 @@
     },
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Qwen2.5-7B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -32,6 +24,14 @@
     },
     {
       "model": "MaziyarPanahi/gemma-3-27b-it-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
@@ -4324,6 +4324,10 @@
     },
     {
       "model": "MaziyarPanahi/Qwen2.5-3B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Qwen2.5-7B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -11704,10 +11708,6 @@
     },
     {
       "model": "gabriellarson/AceReason-Nemotron-1.1-7B-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
