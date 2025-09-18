@@ -1,13 +1,13 @@
 {
-  "JS_last_updated": "2025-09-17T01:27:43.413763Z",
-  "PY_last_updated": "2025-09-17 01:27:43 UTC",
+  "JS_last_updated": "2025-09-18T01:27:39.257964Z",
+  "PY_last_updated": "2025-09-18 01:27:39 UTC",
   "models": [
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
@@ -11968,6 +11968,10 @@
     },
     {
       "model": "tensorblock/Alphatao_Affine-5246433-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "bobchenyx/DeepSeek-V3-0324-508B-A32B-MLA-GGUF",
       "is_base_model": true
     },
     {
