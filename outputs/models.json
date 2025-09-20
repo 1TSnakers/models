@@ -1,6 +1,6 @@
 {
-  "JS_last_updated": "2025-09-19T01:38:13.037608Z",
-  "PY_last_updated": "2025-09-19 01:38:13 UTC",
+  "JS_last_updated": "2025-09-20T01:26:13.955261Z",
+  "PY_last_updated": "2025-09-20 01:26:13 UTC",
   "models": [
     {
       "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
@@ -27,23 +27,11 @@
       "is_base_model": true
     },
     {
-      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
       "is_base_model": true
     },
     {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q4_K_M-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "huihui-ai/Huihui-Qwen3-Coder-480B-A35B-Instruct-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/huihui-ai_Huihui-Qwen3-1.7B-abliterated-v2-GGUF",
       "is_base_model": true
     },
     {
@@ -10491,6 +10479,10 @@
       "is_base_model": true
     },
     {
+      "model": "DavidAU/Reka-Flash-3-21B-Reasoning-Uncensored-MAX-NEO-Imatrix-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/amoral-gemma3-4B-GGUF",
       "is_base_model": true
     },
@@ -12187,6 +12179,10 @@
       "is_base_model": true
     },
     {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q4_K_M-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-Instruct-2507-abliterated-Q5_K_M-GGUF",
       "is_base_model": true
     },
@@ -12364,6 +12360,10 @@
     },
     {
       "model": "tensorblock/albertfares_DPO_MCQA_model-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/huihui-ai_Huihui-Qwen3-1.7B-abliterated-v2-GGUF",
       "is_base_model": true
     },
     {
