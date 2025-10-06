@@ -1,21 +1,21 @@
 {
-  "JS_last_updated": "2025-10-05T01:44:27.416922Z",
-  "PY_last_updated": "2025-10-05 01:44:27 UTC",
+  "JS_last_updated": "2025-10-06T01:38:33.871390Z",
+  "PY_last_updated": "2025-10-06 01:38:33 UTC",
   "models": [
-    {
-      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
-      "is_base_model": true
-    },
     {
       "model": "MaziyarPanahi/TinyMistral-248M-v2.5-Instruct-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Llama-3.1-8B-Instruct-Fei-v1-Uncensored-GGUF",
+      "model": "legraphista/DeepSeek-Coder-V2-Lite-Instruct-IMat-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
@@ -24,6 +24,10 @@
     },
     {
       "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "huihui-ai/Huihui-Qwen3-235B-A22B-abliterated-Q4_K_M-GGUF",
       "is_base_model": true
     },
     {
@@ -47,15 +51,19 @@
       "is_base_model": true
     },
     {
+      "model": "tachyphylaxis/Huihui-GLM-4.5-Air-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "bobchenyx/DeepSeek-V3.1-Terminus-GGUF",
       "is_base_model": true
     },
     {
-      "model": "tensorblock/mistral-7b-uncensored-GGUF",
+      "model": "tensorblock/UnfilteredAI_DAN-Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
     {
-      "model": "tensorblock/UnfilteredAI_DAN-Qwen3-1.7B-GGUF",
+      "model": "tensorblock/mistral-7b-uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -2531,10 +2539,6 @@
       "is_base_model": false
     },
     {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "abhinand/Meta-Llama-3-8B-GGUF",
       "is_base_model": false
     },
@@ -3608,10 +3612,6 @@
     },
     {
       "model": "MaziyarPanahi/mergekit-slerp-ijnxdha-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "legraphista/DeepSeek-Coder-V2-Lite-Instruct-IMat-GGUF",
       "is_base_model": true
     },
     {
@@ -4912,6 +4912,10 @@
     },
     {
       "model": "MaziyarPanahi/Defne-llama3.1-8B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Llama-3.1-8B-Instruct-Fei-v1-Uncensored-GGUF",
       "is_base_model": true
     },
     {
@@ -12335,10 +12339,6 @@
       "is_base_model": true
     },
     {
-      "model": "tachyphylaxis/Huihui-GLM-4.5-Air-abliterated-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/apathi_norm-macdonald-ai-GGUF",
       "is_base_model": true
     },
@@ -12456,6 +12456,10 @@
     },
     {
       "model": "bobchenyx/gpt-oss-20b-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "bobchenyx/GLM-4.6-GGUF",
       "is_base_model": true
     }
   ]
