@@ -1,9 +1,13 @@
 {
-  "JS_last_updated": "2025-10-09T01:37:28.187768Z",
-  "PY_last_updated": "2025-10-09 01:37:28 UTC",
+  "JS_last_updated": "2025-10-10T01:38:00.876629Z",
+  "PY_last_updated": "2025-10-10 01:38:00 UTC",
   "models": [
     {
       "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
@@ -15,15 +19,15 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "legraphista/DeepSeek-Coder-V2-Lite-Instruct-IMat-GGUF",
       "is_base_model": true
     },
     {
       "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/metharme-7b-GGUF",
       "is_base_model": true
     },
     {
@@ -47,6 +51,10 @@
       "is_base_model": true
     },
     {
+      "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "tachyphylaxis/Huihui-GLM-4.5-Air-abliterated-GGUF",
       "is_base_model": true
     },
@@ -55,11 +63,11 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/UnfilteredAI_DAN-Qwen3-1.7B-GGUF",
+      "model": "tensorblock/mistral-7b-uncensored-GGUF",
       "is_base_model": true
     },
     {
-      "model": "tensorblock/mistral-7b-uncensored-GGUF",
+      "model": "tensorblock/UnfilteredAI_DAN-Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
     {
@@ -6635,10 +6643,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/metharme-7b-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/DataVortexS-10.7B-dpo-v1.11-GGUF",
       "is_base_model": true
     },
@@ -12332,10 +12336,6 @@
     },
     {
       "model": "tensorblock/neural-coder_finetuned-4-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
       "is_base_model": true
     },
     {
