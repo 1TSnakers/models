@@ -1,15 +1,7 @@
 {
-  "JS_last_updated": "2025-10-13T01:43:57.119098Z",
-  "PY_last_updated": "2025-10-13 01:43:57 UTC",
+  "JS_last_updated": "2025-10-14T01:37:50.765849Z",
+  "PY_last_updated": "2025-10-14 01:37:50 UTC",
   "models": [
-    {
-      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
-      "is_base_model": true
-    },
     {
       "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
@@ -19,7 +11,19 @@
       "is_base_model": true
     },
     {
+      "model": "moxin-org/DeepSeek-V3-0324-Moxin-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/BioMistral-7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "is_base_model": true
     },
     {
@@ -51,7 +55,7 @@
       "is_base_model": true
     },
     {
-      "model": "moxin-org/DeepSeek-V3-0324-Moxin-GGUF",
+      "model": "tensorblock/UnfilteredAI_DAN-Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
     {
@@ -12128,10 +12132,6 @@
     },
     {
       "model": "tensorblock/mlx-community_Mistral-Small-3.2-24B-Instruct-2506-bf16-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/UnfilteredAI_DAN-Qwen3-1.7B-GGUF",
       "is_base_model": true
     },
     {
