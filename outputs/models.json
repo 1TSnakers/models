@@ -1,7 +1,11 @@
 {
-  "JS_last_updated": "2025-10-15T01:40:42.744034Z",
-  "PY_last_updated": "2025-10-15 01:40:42 UTC",
+  "JS_last_updated": "2025-10-16T01:39:49.696340Z",
+  "PY_last_updated": "2025-10-16 01:39:49 UTC",
   "models": [
+    {
+      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
+      "is_base_model": true
+    },
     {
       "model": "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF",
       "is_base_model": true
@@ -15,23 +19,11 @@
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/BioMistral-7B-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
       "is_base_model": true
     },
     {
-      "model": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/metharme-7b-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "tensorblock/DeepSeek-V3-1B-Test-GGUF",
       "is_base_model": true
     },
     {
@@ -40,6 +32,10 @@
     },
     {
       "model": "tensorblock/unsloth_Qwen3-30B-A3B-Instruct-2507-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "tensorblock/NSFW_DPO_Noromaid-7b-Mistral-7B-Instruct-v0.1-GGUF",
       "is_base_model": true
     },
     {
@@ -1640,6 +1636,10 @@
     },
     {
       "model": "MaziyarPanahi/NeuralOmniBeagle-7B-GGUF",
+      "is_base_model": true
+    },
+    {
+      "model": "MaziyarPanahi/BioMistral-7B-GGUF",
       "is_base_model": true
     },
     {
@@ -8775,10 +8775,6 @@
       "is_base_model": true
     },
     {
-      "model": "tensorblock/NSFW_DPO_Noromaid-7b-Mistral-7B-Instruct-v0.1-GGUF",
-      "is_base_model": true
-    },
-    {
       "model": "tensorblock/Yi-Ko-6B-dpo-v6-GGUF",
       "is_base_model": true
     },
@@ -10243,6 +10239,10 @@
       "is_base_model": true
     },
     {
+      "model": "tensorblock/DeepSeek-V3-1B-Test-GGUF",
+      "is_base_model": true
+    },
+    {
       "model": "MaziyarPanahi/QwQ-32B-GGUF",
       "is_base_model": true
     },
@@ -10836,10 +10836,6 @@
     },
     {
       "model": "DavidAU/Gemma-3-Nine-Rings-of-Power-Fiction-Horror-4b-it-GGUF",
-      "is_base_model": true
-    },
-    {
-      "model": "DavidAU/Fallen-Gemma-3-Nine-Rings-of-Power-4b-it-GGUF",
       "is_base_model": true
     },
     {
